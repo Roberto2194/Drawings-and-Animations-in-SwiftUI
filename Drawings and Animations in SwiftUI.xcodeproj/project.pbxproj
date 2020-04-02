@@ -7,15 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE364DB22433556C00E6EC1F /* Example1.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE364DB12433556C00E6EC1F /* Example1.swift */; };
+		EE364DB42433561A00E6EC1F /* Example2.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE364DB32433561A00E6EC1F /* Example2.swift */; };
+		EE364DB6243356FE00E6EC1F /* Example3.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE364DB5243356FE00E6EC1F /* Example3.swift */; };
+		EE364DB824335A3C00E6EC1F /* Example4.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE364DB724335A3C00E6EC1F /* Example4.swift */; };
+		EE364DBD24335F0F00E6EC1F /* Example6.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE364DBC24335F0F00E6EC1F /* Example6.swift */; };
+		EE364DC124336AD500E6EC1F /* Example7.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE364DC024336AD500E6EC1F /* Example7.swift */; };
+		EE364DC324336B1E00E6EC1F /* Example8.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE364DC224336B1E00E6EC1F /* Example8.swift */; };
 		EE993D5F2432427E0067F3E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE993D5E2432427E0067F3E5 /* AppDelegate.swift */; };
 		EE993D612432427E0067F3E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE993D602432427E0067F3E5 /* SceneDelegate.swift */; };
 		EE993D632432427E0067F3E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE993D622432427E0067F3E5 /* ContentView.swift */; };
 		EE993D652432427F0067F3E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE993D642432427F0067F3E5 /* Assets.xcassets */; };
 		EE993D682432427F0067F3E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE993D672432427F0067F3E5 /* Preview Assets.xcassets */; };
 		EE993D6B2432427F0067F3E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE993D692432427F0067F3E5 /* LaunchScreen.storyboard */; };
+		EE993D73243289400067F3E5 /* Example5.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE993D72243289400067F3E5 /* Example5.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE364DB12433556C00E6EC1F /* Example1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example1.swift; sourceTree = "<group>"; };
+		EE364DB32433561A00E6EC1F /* Example2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example2.swift; sourceTree = "<group>"; };
+		EE364DB5243356FE00E6EC1F /* Example3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example3.swift; sourceTree = "<group>"; };
+		EE364DB724335A3C00E6EC1F /* Example4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example4.swift; sourceTree = "<group>"; };
+		EE364DBC24335F0F00E6EC1F /* Example6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example6.swift; sourceTree = "<group>"; };
+		EE364DC024336AD500E6EC1F /* Example7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example7.swift; sourceTree = "<group>"; };
+		EE364DC224336B1E00E6EC1F /* Example8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example8.swift; sourceTree = "<group>"; };
 		EE993D5B2432427E0067F3E5 /* Drawings and Animations in SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Drawings and Animations in SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE993D5E2432427E0067F3E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE993D602432427E0067F3E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +39,7 @@
 		EE993D672432427F0067F3E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EE993D6A2432427F0067F3E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE993D6C2432427F0067F3E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE993D72243289400067F3E5 /* Example5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example5.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +53,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE364DBA24335E9000E6EC1F /* Drawings */ = {
+			isa = PBXGroup;
+			children = (
+				EE364DB12433556C00E6EC1F /* Example1.swift */,
+				EE364DB32433561A00E6EC1F /* Example2.swift */,
+				EE364DB5243356FE00E6EC1F /* Example3.swift */,
+			);
+			path = Drawings;
+			sourceTree = "<group>";
+		};
+		EE364DBB24335EA300E6EC1F /* Easy Animations */ = {
+			isa = PBXGroup;
+			children = (
+				EE364DB724335A3C00E6EC1F /* Example4.swift */,
+				EE993D72243289400067F3E5 /* Example5.swift */,
+				EE364DBC24335F0F00E6EC1F /* Example6.swift */,
+			);
+			path = "Easy Animations";
+			sourceTree = "<group>";
+		};
+		EE364DBF24335FD400E6EC1F /* Advanced Animations */ = {
+			isa = PBXGroup;
+			children = (
+				EE364DC024336AD500E6EC1F /* Example7.swift */,
+				EE364DC224336B1E00E6EC1F /* Example8.swift */,
+			);
+			path = "Advanced Animations";
+			sourceTree = "<group>";
+		};
 		EE993D522432427E0067F3E5 = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +104,9 @@
 				EE993D5E2432427E0067F3E5 /* AppDelegate.swift */,
 				EE993D602432427E0067F3E5 /* SceneDelegate.swift */,
 				EE993D622432427E0067F3E5 /* ContentView.swift */,
+				EE364DBA24335E9000E6EC1F /* Drawings */,
+				EE364DBB24335EA300E6EC1F /* Easy Animations */,
+				EE364DBF24335FD400E6EC1F /* Advanced Animations */,
 				EE993D642432427F0067F3E5 /* Assets.xcassets */,
 				EE993D692432427F0067F3E5 /* LaunchScreen.storyboard */,
 				EE993D6C2432427F0067F3E5 /* Info.plist */,
@@ -147,7 +195,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE993D5F2432427E0067F3E5 /* AppDelegate.swift in Sources */,
+				EE364DB824335A3C00E6EC1F /* Example4.swift in Sources */,
+				EE364DB42433561A00E6EC1F /* Example2.swift in Sources */,
 				EE993D612432427E0067F3E5 /* SceneDelegate.swift in Sources */,
+				EE993D73243289400067F3E5 /* Example5.swift in Sources */,
+				EE364DB22433556C00E6EC1F /* Example1.swift in Sources */,
+				EE364DC324336B1E00E6EC1F /* Example8.swift in Sources */,
+				EE364DB6243356FE00E6EC1F /* Example3.swift in Sources */,
+				EE364DBD24335F0F00E6EC1F /* Example6.swift in Sources */,
+				EE364DC124336AD500E6EC1F /* Example7.swift in Sources */,
 				EE993D632432427E0067F3E5 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
