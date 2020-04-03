@@ -11,7 +11,7 @@ import SwiftUI
 struct Example7: View {
     @State private var backViewSize: CGFloat = 80
     @State private var size: CGSize = .zero
-    @State private var color: UIColor = .random()
+    @State private var color: UIColor = .random
     var body: some View {
         GeometryReader { reader in
             ZStack {
@@ -35,8 +35,9 @@ struct Example7: View {
                         .onEnded({ (value) in
                             self.size = .zero
                             self.backViewSize = 80
-                            self.color = .random()
-                        }))
+                            self.color = .random
+                        })
+                )
                     .offset(self.size)
             }
         }
@@ -45,17 +46,11 @@ struct Example7: View {
     }
 }
 
-extension CGFloat {
-    static func random() -> CGFloat {
-        return CGFloat(arc4random()) / CGFloat(UInt32.max)
-    }
-}
-
 extension UIColor {
-    static func random() -> UIColor {
-        return UIColor(red:   .random(),
-                       green: .random(),
-                       blue:  .random(),
+    static var random: UIColor {
+        return UIColor(red: .random(in: 0...1),
+                       green: .random(in: 0...1),
+                       blue: .random(in: 0...1),
                        alpha: 1.0)
     }
 }
